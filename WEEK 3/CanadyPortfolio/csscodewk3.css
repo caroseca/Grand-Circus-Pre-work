@@ -1,0 +1,72 @@
+body {
+	background-color: rgba(84,84,84,0.5);
+	font-family: Garamond, sans-serif;
+}
+td {
+	border: 5px solid magenta;
+	background-color: lightblue;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 10px;
+}
+a:hover {
+	color: #ffc321;
+	text-decoration: none;
+}
+a:visited {
+	color: #b83bf;
+}
+@font-face {
+	font-family: 'mathlete';
+	src: url('Mathlete-Bulky.otf');
+}
+h1 {
+	font-family: mathlete, Georgia, serif;
+	font-size: 32px;
+}
+#submit {
+ color: #c28dde;
+ font-size: 20px;
+ width: 125px;
+ height: 60px;
+ border: 3px dashed blue;
+ margin: 0;
+ padding: 0;
+}
+.field {
+	color: #ffc321;
+	text-transform: lowercase;
+	font-weight: bold;
+	border: 1px solid #ffc321;
+}
+blockquote {
+	float: right;
+	width: 275px;
+	font-size: 125%;
+	font-style: italic;
+	font-family: mathlete;
+	margin: 0px 0px 10px 10px;
+	padding: 10px;
+	border-top: 1px solid #665544;
+	border-bottom: 1px solid #665544;
+}
+#nav1 {
+	width: 80px;
+	height: 20px;
+}
+#nav2 {
+	width: 80px;
+	height: 20px;
+}
+#nav3 {
+	width: 80px;
+	height: 20px;
+}
+.nav {
+	display: inline;
+	margin-right: 50px;
+	background-color: lightblue;
+	padding: 10px;
+	position: relative;
+	left: 300px;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Cara's Week Three Webpage</title>
+		<link href="csscodewk3.css" type="text/css" rel="stylesheet" />
+		<script src="javaweek3.js"></script>
+	</head>
+	<body>
+		<h1 style="font-size: 30px; text-align:center; background-color: violet">Cara Canady</h1>
+		<h2 style="text-align:center">Transforming Text Using JavaScript</h2>
+	<p>I know this is really basic and ugly, but I've been fiddling with this java code for hours and just figured it out! Wahoo!</p>
+	
+Before: <input type="text" id="before" value=""><br>
+After: <input type="text" id="after"><br></p>
+
+<button onclick="myFunction()">Transform Text</button>
+
+<script>
+function myFunction() {
+        document.getElementById("after").value = document.getElementById("before").value + ' yippee wahoo i did it !!!';
+}
+</script>
+</body>
+</html>
