@@ -70,15 +70,6 @@ blockquote {
 .navbar {
 	text-align: center;
 }
-.images {
+.images{
 	text-align: center;
-}
-.row2 {
-	display: inline;
-	border: 5px solid magenta;
-	background-color: lightblue;
-	padding: 100px;
-}
-img { 
-	max-width: 100%; 
 }
